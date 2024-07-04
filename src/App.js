@@ -13,6 +13,7 @@ import Storysingleideas from "./Storyideas/Storysingleideas/Storysingleideas";
 import Branding from "./pages/branding/Branding";
 import Storytemplates from "./Storytemplates/Storytemplates";
 import Storysingletemplates from "./Storytemplates/Storytemplatesideas/Storysingletemplates";
+import Printable from "./Printable/Printable";
 function App() {
   return (
     <Router>
@@ -30,6 +31,7 @@ function App() {
         <Route path="/branding" element={<Branding />} />
         <Route path="/storytemplates" element={<Storytemplates />} />
         <Route path="/storytemplates/:id" element={<Storysingletemplates />} />
+        <Route path="/printable" element={<Printable />} />
       </Routes>
       {/* <Layout>
       </Layout> */}
