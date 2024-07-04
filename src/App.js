@@ -16,6 +16,10 @@ import Printable from "./Printable/Printable";
 import Emailtextmarketing from "./EmailText Marketing/Emailtextmarkiting";
 import Branding from "./Branding/Branding";
 import Brandingedior from "./Branding/branding/Brandingeditor";
+import Socialmedia from "./Socialmedia/Socialmedia";
+import Usedcontent from "./Usedcontent/Usedcontent";
+import Favorite from "./Favorite/Favorite";
+import Examplecontent from "./Examplecontent/Examplecontent";
 function App() {
   return (
     <Router>
@@ -28,6 +32,7 @@ function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/Reels" element={<ReelsIdeas />} />
         <Route path="/Storyideas" element={<Storyideas />} />
+        <Route path="/UsedContent" element={<Usedcontent />} />
         <Route path="/Reels/:id" element={<ReelSingleIdea />} />
         <Route path="/Storyideas/:id" element={<Storysingleideas />} />
         <Route path="/storytemplates" element={<Storytemplates />} />
@@ -36,6 +41,9 @@ function App() {
         <Route path="/Emailtextmarketing" element={<Emailtextmarketing />} />
         <Route path="/branding" element={<Branding />} />
         <Route path="/brandingeditor" element={<Brandingedior />} />
+        <Route path="/Socialmedia" element={<Socialmedia />} />
+        <Route path="/Favorite" element={<Favorite />} />
+        <Route path="/Contentvault" element={<Examplecontent />} />
       </Routes>
       {/* <Layout>
       </Layout> */}

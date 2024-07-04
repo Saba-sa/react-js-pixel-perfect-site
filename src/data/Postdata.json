@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Architecture Landing Page",
+    "description": "An application programming interface (API) is a way for two or more computer .",
+    "img": "Mask Group (1).png"
+  },
+  {
+    "id": 2,
+    "title": "Summer Sale",
+    "description": "An application programming interface (API) is a way for two or more computer .",
+    "img": "Mask Group (2).png"
+  },
+  {
+    "id": 3,
+    "title": "Winter Sale",
+    "description": "An application programming interface (API) is a way for two or more computer .",
+    "img": "Mask Group.png"
+  },
+  {
+    "id": 4,
+    "title": "Home Improvement",
+    "description": "An application programming interface (API) is a way for two or more computer .",
+    "img": "unsplash_bMSA5-tLFao.png"
+  }
+]
