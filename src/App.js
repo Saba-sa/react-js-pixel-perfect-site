@@ -20,16 +20,16 @@ import Socialmedia from "./Socialmedia/Socialmedia";
 import Usedcontent from "./Usedcontent/Usedcontent";
 import Favorite from "./Favorite/Favorite";
 import Examplecontent from "./Examplecontent/Examplecontent";
+import Contentcalendar from "./ContentCalendar/Contentcalendar.js";
+import Setting from "./Setting/Setting.js";
 function App() {
   return (
     <Router>
-      {/* <PostCard /> */}
       <Routes>
-        {/* <Route path='/' element={<PostCard />}></Route> */}
-
         <Route path="/" element={<Homepage />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/ContentCalendar" element={<Contentcalendar />} />
         <Route path="/Reels" element={<ReelsIdeas />} />
         <Route path="/Storyideas" element={<Storyideas />} />
         <Route path="/UsedContent" element={<Usedcontent />} />
@@ -44,6 +44,7 @@ function App() {
         <Route path="/Socialmedia" element={<Socialmedia />} />
         <Route path="/Favorite" element={<Favorite />} />
         <Route path="/Contentvault" element={<Examplecontent />} />
+        <Route path="/setting" element={<Setting />} />
       </Routes>
       {/* <Layout>
       </Layout> */}

@@ -31,10 +31,11 @@ const Homepage = () => {
           </div>
           <div className="flex justify-between  h-48 w-full ">
             <Picwithtext
-              textBeforeSPan="Let’s create a "
-              span="Script"
-              textAfterSpan="for your next Reel"
-              textBelowHeading=""
+              textBeforeSPan="Hi Austin, "
+              span="Sunny"
+              textAfterSpan="fweek
+in texas right!"
+              textBelowHeading="What are we posting this week?"
             />
             <Openccallender />
           </div>
